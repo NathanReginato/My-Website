@@ -28,7 +28,44 @@ h1 {
 
 nav {
     text-align: center;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    font-size: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 3vw;
+    height: 3.5vw;
+}
+
+nave, a {
+    display: block;
+    width: 50%;
+    float: right;
+}
+
+
+/************************
+MAIN
+*************************/
+
+.right-content img {
+    display: block;
+    float: right;
+    margin: 10vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+}
+
+
+.left-content {   
+    float: left;
+    display: block;
+    width: 30vw;
+    margin: 10vw;
+}
+
+/************************
+FOOTER
+*************************/
+
+footer {
+    clear: both;
 }

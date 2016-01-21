@@ -1,0 +1,34 @@
+/* MAIN CSS */
+
+/************************
+GENERAL
+*************************/
+
+/************************
+FONTS
+*************************/
+
+/************************
+COLORS
+*************************/
+
+header { background-color: #2279c3; }
+nav    { background-color: #c1c1c1; }
+
+/************************
+HEADER
+*************************/
+
+h1 { 
+    text-align: center;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    font-size: 10vw;
+}
+
+nav {
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 5vw;
+}

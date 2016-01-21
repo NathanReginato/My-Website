@@ -30,8 +30,8 @@ nav {
     text-align: center;
     padding-top: 1vw;
     padding-bottom: 1vw;
-    font-size: 3vw;
-    height: 3.5vw;
+    font-size: 4vw;
+    height: 5vw;
 }
 
 nave, a {
@@ -46,20 +46,31 @@ MAIN
 *************************/
 
 .right-content img {
-    display: block;
-    float: right;
-    margin: 10vw;
-    width: 30vw;
-    height: 30vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-top: 12vh;
+    width: 70vw;
+    height: 70vw;
     border-radius: 50%;
 }
 
 
 .left-content {   
-    float: left;
-    display: block;
-    width: 30vw;
-    margin: 10vw;
+    width: 70vw;
+    margin-top: 12vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 12vh;
+    text-align: center;
+}
+
+h2 {
+    font-size: 9vw;
+    margin-bottom: 2vh
+}
+
+p {
+    font-size: 5vw;
 }
 
 /************************
@@ -68,4 +79,5 @@ FOOTER
 
 footer {
     clear: both;
+    display: none;
 }

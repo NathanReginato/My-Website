@@ -20,7 +20,10 @@ COLORS
 
 header { background-color: #A14700; }
 nav    { background-color: #f8f8f8; }
-nav, a { background-color: #b1b1b1; }
+nav, a { background-color: #A17B00;
+         color:            #000000; }
+h1     { color:            #ffffff; }
+
 
 /************************
 HEADER
@@ -33,19 +36,21 @@ h1 {
     font-size: 10vw;
     font-family: "Nate";
     font-weight: bold;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px #ff0000, 4px 4px #0000ff;
 }
 
 nav {
     text-align: center;
     font-size: 3vw;
     height: 4vw;
-    font-family: 'Arvo', serif;
+    font-family: 'Poiret One', cursive;
     
 }
 
 nave, a {
     display: block;
-    width: 50%;
+    width: 49%;
     float: right;
     padding-top: .5vw;
     padding-bottom: .5vw;
@@ -55,6 +60,10 @@ nave, a {
 
 a {
     text-decoration: none;
+}
+
+.selected-nav {
+    background-color: #8A5600;
 }
 
 
@@ -92,6 +101,10 @@ h2 {
 
 p {
     font-size: 2vw;
+}
+
+p, h2 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /************************

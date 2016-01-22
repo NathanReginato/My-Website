@@ -13,15 +13,24 @@ FONTS
     src: url(../Fonts/ReginaFree.ttf);
 }
 
+@font-face {
+    font-family: "Paragraph";
+    src: url(../Fonts/Minecraftia-Regular.ttf);
+}
+
+@font-face {
+    font-family: "H2";
+    src: url(../Fonts/04B_30__.ttf);
+}
+
 
 /************************
 COLORS
 *************************/
 
-header { background-color: #A14700; }
-nav    { background-color: #f8f8f8; }
-nav, a { background-color: #A17B00;
-         color:            #000000; }
+header { background-color: #e5e5e5; }
+nav, a { background-color: #dbdbdb;
+         color:            #0000ff; }
 h1     { color:            #ffffff; }
 
 
@@ -63,7 +72,7 @@ a {
 }
 
 .selected-nav {
-    background-color: #8A5600;
+    color: #ff0000;
 }
 
 
@@ -74,38 +83,40 @@ MAIN
 .right-content img {
     float: right;
     margin-right: 10vw;
-    margin-left: 10vw;
     margin-top: 12vh;
     width: 30vw;
     height: 30vw;
     border-radius: 50%;
+    box-shadow: 5px 5px red, 10px 10px blue;
+    border: 10px solid #dbdbdb;
     
 }
 
 
 .left-content {
     float: left;    
-    width: 30vw;
+    width: 40vw;
     height: 30vw;
     margin-top: 12vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-bottom: 12vh;
     text-align: center;
+    
 }
 
 h2 {
-    font-size: 3vw;
-    margin-bottom: 2vh
+    font-size: 2.8vw;
+    margin-bottom: 2vh;
+    font-family: "H2";
 }
 
 p {
-    font-size: 2vw;
+    font-size: 1.5vw;
+    line-height: 28px;
+    font-family: "Paragraph"
 }
 
-p, h2 {
-    font-family: 'Open Sans', sans-serif;
-}
 
 /************************
 FOOTER

@@ -8,12 +8,19 @@ GENERAL
 FONTS
 *************************/
 
+@font-face {
+    font-family: "Nate";
+    src: url(../Fonts/ReginaFree.ttf);
+}
+
+
 /************************
 COLORS
 *************************/
 
-header { background-color: #2279c3; }
-nav    { background-color: #c1c1c1; }
+header { background-color: #A14700; }
+nav    { background-color: #f8f8f8; }
+nav, a { background-color: #b1b1b1; }
 
 /************************
 HEADER
@@ -21,23 +28,33 @@ HEADER
 
 h1 { 
     text-align: center;
-    padding-bottom: 2vw;
-    padding-top: 2vw;
+    padding-bottom: 2vh;
+    padding-top: 5vh;
     font-size: 10vw;
+    font-family: "Nate";
+    font-weight: bold;
 }
 
 nav {
     text-align: center;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    font-size: 4vw;
-    height: 5vw;
+    font-size: 3vw;
+    height: 4vw;
+    font-family: 'Arvo', serif;
+    
 }
 
 nave, a {
     display: block;
     width: 50%;
     float: right;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    font-weight: 100;
+        
+}
+
+a {
+    text-decoration: none;
 }
 
 

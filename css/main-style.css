@@ -80,17 +80,27 @@ a {
 MAIN
 *************************/
 
-.right-content img {
+.right-content {
     float: right;
     margin-right: 10vw;
     margin-top: 12vh;
+	margin-bottom: 30vh;
     width: 30vw;
     height: 30vw;
+	text-align: center;
+}
+
+.EaN {
+	width: 30vw;
     border-radius: 50%;
     box-shadow: 5px 5px red, 10px 10px blue;
-    border: 10px solid #dbdbdb;
-    
+    border: 10px solid #dbdbdb;   
 }
+
+.gif {
+	width: 30vw;
+}
+
 
 
 .left-content {

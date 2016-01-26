@@ -1,8 +1,12 @@
 $( document ).ready( function() {
+	
+	$(function() {
+		$(".right-content").hide();
+	});
+	
 	$(function() {
     	$( "button" ).click(function() {
-			alert("click");
-			
+			$(".right-content").show( "slow" );
       	});
   	});
 });

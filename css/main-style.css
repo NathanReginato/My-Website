@@ -32,6 +32,7 @@ header { background-color: #e5e5e5; }
 nav, a { background-color: #dbdbdb;
          color:            #0000ff; }
 h1     { color:            #ffffff; }
+button { background-color: #dbdbdb; }
 
 
 /************************
@@ -90,6 +91,10 @@ MAIN
 	text-align: center;
 }
 
+.right-content p {
+	margin-bottom: 3vh;
+}
+
 .EaN {
 	width: 30vw;
     border-radius: 50%;
@@ -125,6 +130,14 @@ p {
     font-size: 1.5vw;
     line-height: 28px;
     font-family: "Paragraph"
+}
+
+button {
+	width: 20vw;
+	height: 10vh;
+	font-size: 1em;
+	margin-top: 5vh;
+	border-radius: 10px;
 }
 
 

@@ -28,11 +28,13 @@ FONTS
 COLORS
 *************************/
 
-header { background-color: #e5e5e5; }
-nav, a { background-color: #dbdbdb;
-         color:            #0000ff; }
-h1     { color:            #ffffff; }
-button { background-color: #dbdbdb; }
+header  		{ background-color: #e5e5e5; }
+nav, a 			{ background-color: #dbdbdb;
+         		  color:            #0000ff; }
+h1     			{ color:            #ffffff; }
+button 			{ background-color: #dbdbdb; }
+.selected-nav 	{ color: 			#ff0000; }
+
 
 
 /************************
@@ -72,10 +74,6 @@ a {
     text-decoration: none;
 }
 
-.selected-nav {
-    color: #ff0000;
-}
-
 
 /************************
 MAIN
@@ -87,7 +85,7 @@ MAIN
     margin-top: 12vh;
 	margin-bottom: 30vh;
     width: 30vw;
-    height: 30vw;
+    height: 40vw;
 	text-align: center;
 }
 
@@ -95,11 +93,17 @@ MAIN
 	margin-bottom: 3vh;
 }
 
-.EaN {
+.img-wrapper {
 	width: 30vw;
     border-radius: 50%;
     box-shadow: 5px 5px red, 10px 10px blue;
-    border: 10px solid #dbdbdb;   
+    border: 10px solid #dbdbdb;
+}
+
+.EaN {
+	width: 30vw;
+    border-radius: 50%;
+	-webkit-filter: grayscale(100%);
 }
 
 .gif {

@@ -4,6 +4,10 @@
 GENERAL
 *************************/
 
+* {
+  list-style: none;
+}
+
 /************************
 FONTS
 *************************/
@@ -42,7 +46,7 @@ button 			{ background-color: #dbdbdb; }
 HEADER
 *************************/
 
-h1 { 
+h1 {
     text-align: center;
     padding-bottom: 2vh;
     padding-top: 8vh;
@@ -58,7 +62,7 @@ nav {
     font-size: 3vw;
     height: 4vw;
     font-family: 'Poiret One', cursive;
-    
+
 }
 
 nave, a {
@@ -68,7 +72,7 @@ nave, a {
     padding-top: .5vw;
     padding-bottom: .5vw;
     font-weight: 100;
-        
+
 }
 
 a {
@@ -114,7 +118,7 @@ MAIN
 
 
 .left-content {
-    float: left;    
+    float: left;
     width: 40vw;
     height: 30vw;
     margin-top: 12vh;
@@ -122,7 +126,7 @@ MAIN
     margin-right: 5vw;
     margin-bottom: 12vh;
     text-align: center;
-    
+
 }
 
 h2 {

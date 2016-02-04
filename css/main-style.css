@@ -32,12 +32,12 @@ FONTS
 COLORS
 *************************/
 
-header  		{ background-color: #e5e5e5; }
-nav, a 			{ background-color: #dbdbdb;
-         		  color:            #0000ff; }
-h1     			{ color:            #ffffff; }
-button 			{ background-color: #dbdbdb; }
-.selected-nav 	{ color: 			#ff0000; }
+header  		    { background-color: #e5e5e5; }
+nav, a 			    { background-color: #dbdbdb;
+         		      color:            #0000ff; }
+h1     			    { color:            #ffffff; }
+button 			    { background-color: #dbdbdb; }
+.selected-nav 	{ color: 			      #ff0000; }
 .img-wrapper    { background-color: #dbdbdb; }
 
 
